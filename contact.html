@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="contact.css" />
+  <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+    integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <div class="left">Ritika's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Contact Form -->
+  <div class="container">
+    <form action="https://formspree.io/f/xeozveye" method="POST">
+
+      <h3>GET IN TOUCH</h3>
+
+      <!-- Name field -->
+      <input type="text" name="name" placeholder="Your Name" required />
+
+      <!-- Email field -->
+      <input type="email" name="email" placeholder="Email id" required />
+
+      <!-- Phone field -->
+      <input type="text" name="phone" placeholder="Phone no" required />
+
+      <!-- Message field -->
+      <textarea name="message" rows="4" placeholder="How can I help you" required></textarea>
+
+      <!-- Hidden field for redirect after submission -->
+      <input type="hidden" name="_next" value="https://yourwebsite.com/thankyou.html" />
+
+      <!-- Submit button -->
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <hr />
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer">
+      <div>
+        <h2>Contact</h2>
+        <ul>
+          <li>Email: chauhanritikachauhan.58@gmail.com</li>
+          <li>Phone: +91 9520707767</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Links</h2>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/ritika-chauhan-703829317" target="_blank"><i
+                style="color: #0077b5; font-size: 30px" class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/ritikachauhan599" target="_blank"><i style="color: #4078c0; font-size: 30px"
+                class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-rights">
+      &copy; 2025 Ritika's Portfolio. All rights reserved.
+    </div>
+  </footer>
+</body>
+
+</html>

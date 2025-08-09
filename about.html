@@ -1,0 +1,116 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me</title>
+  <link rel="stylesheet" href="about.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/7d3016b72c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Ritika's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <div class="section">
+    <div class="container">
+      <div class="content-section">
+        <div class="title">
+          <h1>About <span>Me</span></h1>
+        </div>
+        <div class="content" id="fullContent">
+          <h3>Frontend Developer</h3>
+          <p>
+            Creative and passionate frontend developer skilled in crafting
+            responsive, user-friendly interfaces using modern web
+            technologies. Dedicated to delivering visually appealing designs
+            with seamless functionality.
+            <br />
+            <span class="read-more-content">
+              A frontend developer specializes in creating the visual and
+              interactive parts of websites or web applications that users
+              directly engage with. They use technologies like HTML, CSS, and
+              JavaScript to ensure responsive, user-friendly, and visually
+              appealing interfaces.
+              <br />
+            </span>
+          </p>
+          <div class="button">
+            <a href="#" class="btn" onclick="toggleReadMore()">Read More</a>
+          </div>
+        </div>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/ritika-chauhan-703829317" target="_blank"><i style="color: #0a66c2"
+              class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/ritikachauhan599?igsh=aDcwNzAyaW5rNHoz" target="_blank">
+            ><i style="color: #f56040" class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="image-section">
+        <img
+          src="https://png.pngtree.com/png-vector/20250718/ourmid/pngtree-girl-studying-online-with-laptop-png-image_16798203.webp"
+          alt="About Us Image" />
+      </div>
+    </div>
+  </div>
+  <footer>
+    <hr />
+    <div class="footer">
+      <div>
+        <h2>Contact</h2>
+        <ul>
+          <li>Email : chauhanritikachauhan.58@gmail.com</li>
+          <li>Phone : +91 9520707767</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Links</h2>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/ritika-chauhan-703829317" target="_blank"><i
+                style="color: #0077b5; font-size: 30px" class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/ritikachauhan599" target="_blank"><i style="color: #4078c0; font-size: 30px"
+                class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-rights">
+      &copy; 2025 Ritika's Portfolio. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    function toggleReadMore() {
+      var readMoreContent = document.querySelector(".read-more-content");
+      if (
+        readMoreContent.style.display === "none" ||
+        readMoreContent.style.display === ""
+      ) {
+        readMoreContent.style.display = "inline";
+      } else {
+        readMoreContent.style.display = "none";
+      }
+    }
+  </script>
+</body>
+
+</html>
